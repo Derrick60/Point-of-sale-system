@@ -276,7 +276,7 @@ ini_set('display_errors', 0);
 
                 function total()
                 {
-                    var sum= (Number($("#paid").val()) -  Number($("#total").val()) );
+                    var sum= ( Number($("#total").val()) - Number($("#paid").val()));
 
                     $('#balance').val(sum);
                 }
